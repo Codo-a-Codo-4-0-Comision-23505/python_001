@@ -43,3 +43,5 @@ def fibonacci(numero):
         "Algo mas... para completar..."
 
     return resultado
+
+print(fibonacci(5))
