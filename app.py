@@ -21,3 +21,25 @@ def calcularArea( base, altura ):
 resultado = calcularArea(10, 35)
 print(resultado)
 
+# definimos una funcion que cuente hasta el numero pedido
+def conteo(hastaNumero):
+    # Deberia usar un array [0,1..... hastaNumero]
+    #for number in hastaNumero:
+
+    # Construye el array [0,1,.... hastaNumero]
+    for number in range(hastaNumero):
+        print(number)
+
+conteo(50)
+
+def fibonacci(numero):
+    resultado = None
+
+    if numero == 0:
+        resultado = 1
+    elif numero == 1:
+        resultado = 1
+    else:
+        "Algo mas... para completar..."
+
+    return resultado
