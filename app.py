@@ -13,24 +13,32 @@ mySuperVariable = None
 
 # Definimos una funcion que calcule el area de un rectangulo.
 # es el equivalente a escribir function en javaScript
-def calcularArea( base, altura ):
+
+
+def calcularArea(base, altura):
     areaTotal = None
     areaTotal = base * altura
     return areaTotal
+
 
 resultado = calcularArea(10, 35)
 print(resultado)
 
 # definimos una funcion que cuente hasta el numero pedido
+
+
 def conteo(hastaNumero):
+
     # Deberia usar un array [0,1..... hastaNumero]
-    #for number in hastaNumero:
+    # for number in hastaNumero:
 
     # Construye el array [0,1,.... hastaNumero]
     for number in range(hastaNumero):
         print(number)
 
+
 conteo(50)
+
 
 def fibonacci(numero):
     resultado = None
@@ -44,4 +52,11 @@ def fibonacci(numero):
 
     return resultado
 
+
 print(fibonacci(5))
+
+
+# def busquedaPersonaenDB( nombrePersona):
+#   mySQL = "SELECT * from alumnos WHERE name==" + nombrePersona
+#   aasdasdaadad
+#   return persona
